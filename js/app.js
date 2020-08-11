@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     let previousGrid = document.querySelector(".previous-grid")
-    // Since 16 is the max grid size in which all the Tetrominoes 
+    // Since 16 is the max grid size in which all the Tetrominoes
     // can fit in we create one here
     for (let i = 0; i < 16; i++) {
       let gridElement = document.createElement("div")
