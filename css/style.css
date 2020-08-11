@@ -1,3 +1,7 @@
+@media only screen and (min-width: 769px) and (max-width: 1281px) {
+
+}
+
 :root {
   /* default font size in browsers is 16px = 1em, we make
      things easier for us and make 10px our base size.
@@ -328,8 +332,4 @@ div {
   margin-top: 20px;
   margin-left: 20px;
   align-self: center;
-}
-
-@media only screen and (min-width: 769px) and (max-width: 1281px) {
-
 }
