@@ -329,3 +329,9 @@ div {
   margin-left: 20px;
   align-self: center;
 }
+
+/* Media Query: Large Smartphone Vertical */
+@media only screen and (device-aspect-ratio: 40/71) and (max-device-width: 420px) and (min-device-width: 300px) and (orientation: portrait)
+body {
+  background: black;
+}
